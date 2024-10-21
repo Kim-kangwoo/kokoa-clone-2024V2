@@ -1,0 +1,60 @@
+.nav{
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid  rgba(121, 121, 121, 0.2);
+
+}
+
+
+.nav__list{
+
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+
+}
+
+.nav__link {
+
+    color: #2e363e;
+    position: relative;
+}
+
+.nav__notification {
+
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    /* 사각형을 원으로 만드려면 사각형의 반값만 boder-radius */
+}
+
+.nav__circle-notification{
+
+    
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    position: absolute;
+    left: 30px;
+    bottom: 23px;
+
+}
